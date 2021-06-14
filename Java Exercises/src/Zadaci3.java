@@ -10,6 +10,7 @@ public class Zadaci3 {
 		//and find their sum and average.
 		
 		
+		/*POÈETAK KOMENTARA
 		int a, b, c, d, e;
 		int suma;
 		double prosjek;
@@ -39,7 +40,28 @@ public class Zadaci3 {
 		
 		System.out.println("Zbroj svih brojeva koje ste unijeli je: " + suma);
 		System.out.println("Prosjek brojeva koje ste unijeli je: " + prosjek);
+		KRAJ KOMENTARA*/
 		
+		/*
+		 * drugi naèin rješavanja istog zadatka:
+		 */
+		int broj;
+		int sum = 0;
+		double avg;
+		
+		System.out.println("Unesite 5 brojeva");
+		for(int i = 0; i < 5; i++) {
+			Scanner input = new Scanner(System.in);
+			broj = input.nextInt();
+			
+			sum += broj;
+		}
+		
+		avg = sum/5;
+		
+		System.out.println(sum);
+		System.out.println(avg);
+
 		
 	}
 
