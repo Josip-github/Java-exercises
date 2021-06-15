@@ -24,6 +24,7 @@ public class Exercise3 {
 				break;
 			}
 		}
+		System.out.println("Sum: " + sum);
 	}
 
 }
