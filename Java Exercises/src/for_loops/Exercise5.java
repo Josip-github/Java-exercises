@@ -24,7 +24,12 @@ public class Exercise5 {
 			}
 		}
 		
-		System.out.println(isPrime ? "prime" : "not prime");
+		if (isPrime) {
+			System.out.println("Prime");
+		}else {
+			System.out.println("Not prime");
+		}
+		//System.out.println(isPrime ? "prime" : "not prime");
 	}
 
 }
