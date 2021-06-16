@@ -50,6 +50,36 @@ public class Exercise13 {
 			
 		}
 		
+		System.out.println();
+		
+		//UPDATE: sad treba napraviti takav kvadrat, da su mu u prvomi zadnjem redu
+		//  ispisane sve zvjezdice, a u unutarnjim redovima na prvo i posljednje mjesto
+		// dolazi razmak/space/prazno polje, a iznutra su zvjezdice
+		
+		for(int i = 1; i <= n; i++) {
+			if (i == 1 || i == n) {
+				
+				for(int j = 1; j <= n; j++) {
+					System.out.print("*");
+				}
+				System.out.println();
+				
+			}else {
+				for(int j = 1; j <= n; j++) {
+					if (j == 1 || j == n) {
+						System.out.print(" ");
+						
+					}else {
+						System.out.print("*");
+						
+					}
+					
+				}
+				System.out.println();
+			}
+			
+		}
+		
 
 	}
 
