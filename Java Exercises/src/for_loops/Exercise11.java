@@ -8,7 +8,7 @@ public class Exercise11 {
 		// palindrome je rijeè koja isto izgleda neovisno èitamo li ju slijeva
 		// ili zdesna (neven, Ana, anavolimilovana, melem,...)
 		
-		String str = "zarraz";
+		String str = "tenet";
 		boolean isPalindrome = true;
 		
 		for(int i = 0, j = str.length() - 1; i < j; i++, j--) {
