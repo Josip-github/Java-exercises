@@ -14,6 +14,7 @@ public class Exercise16 {
 			for(int j = i + 1; j < niz.length; j++) {
 				if (niz[i] == niz[j]) {
 					niz[i] = 0;
+					niz[j] = 0;
 					
 				}
 				
