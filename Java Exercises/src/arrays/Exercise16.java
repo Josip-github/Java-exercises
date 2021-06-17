@@ -13,7 +13,6 @@ public class Exercise16 {
 		for(int i = 0; i < niz.length; i++) {
 			for(int j = i + 1; j < niz.length; j++) {
 				if (niz[i] == niz[j]) {
-					int temp = niz[i];
 					niz[i] = 0;
 					
 				}
