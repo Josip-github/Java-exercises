@@ -1,6 +1,6 @@
 package arrays;
 
-public class Exercise7 {
+public class Exercise07 {
 
 	public static void main(String[] args) {
 		
