@@ -2,7 +2,7 @@ package arrays;
 
 import javax.swing.JOptionPane;
 
-public class Exercise6 {
+public class Exercise06 {
 
 	public static void main(String[] args) {
 		
