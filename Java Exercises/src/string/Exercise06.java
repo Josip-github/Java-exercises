@@ -19,7 +19,7 @@ public class Exercise06 {
 
 	public static void main(String[] args) {
 
-		compareStrings("Pobjeda", "pobjeda");
+		compareStrings("JosipCota1@email.com", "josipcota1@Email.com");
 	}
 
 }
