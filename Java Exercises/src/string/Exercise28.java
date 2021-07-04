@@ -19,6 +19,17 @@ public class Exercise28 {
 		}
 		
 		System.out.println(Arrays.toString(charNiz));
+		
+		System.out.println();
+		System.out.println("*****");
+		System.out.println();
+		System.out.println("Drugi naèin: ");
+		
+		// 2. naèin
+		
+		char[] charNiz2 = str1.toCharArray();
+		
+		System.out.println(Arrays.toString(charNiz2));
 	}
 
 }
