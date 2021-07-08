@@ -1,26 +1,23 @@
 package exception;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class ObradaIznimki {
 
 	public ObradaIznimki() {
 		int i = 0;
-		Scanner input = new Scanner(System.in);
 
 		while (true) {
-			System.out.println("Unesi jedan cijeli broj ");
 
 			try {
-				i = Integer.parseInt(input.nextLine());
+				i = Integer.parseInt(JOptionPane.showInputDialog("Unesi jedan cijeli broj "));
 				break;
 			} catch (NumberFormatException e) {
-				e.printStackTrace();
+				System.out.println("Nisi unio cijeli broj!");
 			}
 
 		}
 		System.out.println(i);
-		input.close();
 	}
 
 	public static void main(String[] args) {
